@@ -1,0 +1,28 @@
+* Methods to create a virtual environment:
+1) need to have python installed
+python -m venv myenv
+myenv\Scripts\activate
+python --version
+deactivate
+2) mainly for linux users
+pip install virtualenv
+virtualenv -p python3 myenv2
+myenv2\Scripts\activate
+deactivate
+3) Need to install anaconda, manage all package and view easily
+conda create -p myenv3 python==3.10 -y
+conda activate <path_link>
+conda deactivate
+
+* Introduction to Streamlit:
+Streamlit is an open-source app framework for Machine Learning and Data Science projects.
+It allows you to create beautiful web applications for your machine learning and 
+data science projects with simple python scripts.
+pip install -r requirements.txt
+streamlit run app.py   #Creates a very simple website
+
+* Tokenization in NLP
+1. Corpus (Paragraph)
+2. Documents (Sentences)
+3. Vocabulary (Unique words)
+4. Words 
