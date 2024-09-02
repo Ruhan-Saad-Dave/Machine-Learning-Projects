@@ -50,3 +50,6 @@ print("unique elements:\n", np.unique(arr8))
 
 print("minimum element:", np.min(arr))
 #print("mode of arr8:", np.mode(arr)[0])
+
+#%%timeit
+# put on top of a cell to measure time taken to execute a particular cell.
